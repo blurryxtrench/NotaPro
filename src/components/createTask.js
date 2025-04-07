@@ -18,7 +18,7 @@ import { Input } from "./ui/input";
 import CalendarPicker from "./calendarPicker";
 
 export default function CreateTask({ setState, materiaId, periodos }) {
-  const [select, setSelect] = useState(undefined);
+  const [select, setSelect] = useState("");
   const [tarea, setTarea] = useState({
     nombre: "",
     descripcion: "",
@@ -77,8 +77,8 @@ export default function CreateTask({ setState, materiaId, periodos }) {
       console.log(error);
     }
     setTarea({
-      nombre: undefined,
-      descripcion: undefined,
+      nombre: "",
+      descripcion: "",
       fechaEntrega: "",
       materiaId,
     });
@@ -154,7 +154,7 @@ export default function CreateTask({ setState, materiaId, periodos }) {
             {tarea.nombre !== "" &&
             tarea.descripcion !== "" &&
             tarea.fechaEntrega &&
-            select ? (
+            select !== "" ? (
               <form
                 onSubmit={handleSubmit}
                 className="flex items-center space-x-2"
