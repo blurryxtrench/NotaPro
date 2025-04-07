@@ -4,14 +4,14 @@ NotaPro es una aplicación web construida con Next.js para gestionar de forma ef
 
 ## Tecnologías utilizadas:
 
-<div className="flex flex-col gap-1">
-  <div>Next.js como framework principal</div>
-  <div>Prisma como ORM para manejar la base de datos</div>
-  <div>SQLite como motor de base de datos</div>
-  <div>Tailwind CSS para el diseño responsivo</div>
-  <div>ShadCN para una interfaz moderna y accesible</div>
+<ol className="flex flex-col gap-1">
+  <li>Next.js como framework principal</li>
+  <li>Prisma como ORM para manejar la base de datos</li>
+  <li>SQLite como motor de base de datos</li>
+  <li>Tailwind CSS para el diseño responsivo</li>
+  <li>ShadCN para una interfaz moderna y accesible</li>
 
-</div>
+</ol>
 
 ## Posibles Futuras Mejoras
 
