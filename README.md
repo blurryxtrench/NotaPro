@@ -33,7 +33,13 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <pre><code>npm run build</code></pre>
           </li>
           <li>
-            Abre el archivo .env y modifica la variable SECRET_KEY. Por
+            Crea un archivo en el proyecto, cuyo nombre sea ".env". Aquí estarán algunas configuraciones generales de nuestro proyecto
+            Pega estas variables
+            <pre><code>
+              DATABASE_URL="file:./dev.db"
+              SECRET_KEY="mySecretKey"
+              NODE_ENV="production"</code></pre>
+            Luego, modifica la variable SECRET_KEY. Por
             seguridad, reemplaza el valor predeterminado "mySecretKey" por una
             cadena segura de al menos 10 caracteres que combine letras, números
             y símbolos.
