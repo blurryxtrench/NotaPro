@@ -20,15 +20,16 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 
 ## 🚀 Paso a paso para inicializar el proyecto
   <ol>
-          <li>1. **Descarga y descomprime** el proyecto.</li>
+          <li>Descarga y descomprime el proyecto.</li>
           <li>
             2. Abre una terminal en la carpeta del proyecto y ejecuta el
             siguiente comando para instalar las dependencias:
-            <pre> npm install --legacy-peer-deps </pre>
+            ```bash
+npm install --legacy-peer-deps```
           </li>
           <li>
             3. Ejecuta el comando de construcción:
-            <pre> npm run build </pre>
+            ```bash npm run build ```
           </li>
           <li>
             4. Abre el archivo .env y modifica la variable SECRET_KEY. Por
@@ -38,6 +39,6 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           </li>
           <li>
             5. Ejecutar el proyecto con el comando
-            <pre> npm run dev </pre>
+            ```bash npm run dev ```
           </li>
         </ol>
