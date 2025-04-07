@@ -20,7 +20,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 
 ## 🚀 Paso a paso para inicializar el proyecto
   <ol className="flex flex-col gap-1">
-          <li className="hover:bg-white">Descarga y descomprime el proyecto.</li>
+          <li className="p-[20px]">Descarga y descomprime el proyecto.</li>
           <li>
             Abre una terminal en la carpeta del proyecto y ejecuta el
             siguiente comando para instalar las dependencias:
