@@ -19,20 +19,25 @@ NotaPro es una aplicación web construida con Next.js para gestionar de forma ef
 Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de los períodos lectivos y que cuando finalice el último se generen automátiamente planillas con los promedios de los estudiantes</div>
 
 ## 🚀 Paso a paso para inicializar el proyecto
-
-1. **Descarga y descomprime** el proyecto.
-
-2. Abre una terminal en la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias:
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-3. Ejecuta el comando de construcción:
-```bash
-   npm run build
-   ```
-4. Abre el archivo .env y modifica la variable SECRET_KEY.
-Por seguridad, reemplaza el valor predeterminado mySecretKey por una cadena segura de al menos 10 caracteres que combine letras, números y símbolos.
-5. Ejecutar el proyecto con el comando
-```bash
-   npm run dev
-   ```
+  <ul>
+          <li>1. **Descarga y descomprime** el proyecto.</li>
+          <li>
+            2. Abre una terminal en la carpeta del proyecto y ejecuta el
+            siguiente comando para instalar las dependencias:
+            <pre>```bash npm install --legacy-peer-deps ```</pre>
+          </li>
+          <li>
+            3. Ejecuta el comando de construcción:
+            <pre>```bash npm run build ```</pre>
+          </li>
+          <li>
+            4. Abre el archivo .env y modifica la variable SECRET_KEY. Por
+            seguridad, reemplaza el valor predeterminado mySecretKey por una
+            cadena segura de al menos 10 caracteres que combine letras, números
+            y símbolos.
+          </li>
+          <li>
+            5. Ejecutar el proyecto con el comando
+            <pre>```bash npm run dev ```</pre>
+          </li>
+        </ul>
