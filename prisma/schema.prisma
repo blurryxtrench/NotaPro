@@ -1,0 +1,142 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id       Int    @id @default(autoincrement())
+  user     String @unique
+  password String
+}
+
+model Estudiante {
+  id                  Int                   @id @default(autoincrement())
+  user                String                @unique
+  password            String
+  nombre              String
+  apellido            String
+  email               String                @unique
+  cursoId             Int
+  curso               Curso                 @relation(fields: [cursoId], references: [id])
+  familiares          Familiar[]            @relation("EstudiantesFamiliares")
+  promedios           Promedio[]
+  calificaciones      Calificacion[]
+  mensajesPreceptores MensajesPreceptores[]
+  mensajesProfs       MensajesProfesores[]
+  oneTimeToken        String?               @unique // Token de un solo uso para activación
+  tokenExpiresAt      DateTime? // Fecha de expiración del token
+}
+
+model Familiar {
+  id             Int          @id @default(autoincrement())
+  user           String       @unique
+  password       String
+  nombre         String
+  apellido       String
+  email          String       @unique
+  estudiantes    Estudiante[] @relation("EstudiantesFamiliares")
+  oneTimeToken   String?      @unique // Token de un solo uso para activación
+  tokenExpiresAt DateTime? // Fecha de expiración del token
+}
+
+model Docente {
+  id                  Int                   @id @default(autoincrement())
+  user                String                @unique
+  password            String
+  nombre              String
+  apellido            String
+  email               String                @unique
+  cursos              Curso[]
+  materias            Materia[]
+  mensajesPreceptores MensajesPreceptores[]
+  mensajesProfs       MensajesProfesores[]
+  oneTimeToken        String?               @unique // Token de un solo uso para activación
+  tokenExpiresAt      DateTime? // Fecha de expiración del token
+}
+
+model Curso {
+  id          Int          @id @default(autoincrement())
+  nombre      String       @unique
+  docenteId   Int
+  docente     Docente      @relation(fields: [docenteId], references: [id])
+  estudiantes Estudiante[]
+  materias    Materia[]
+}
+
+model Materia {
+  id        Int        @id @default(autoincrement())
+  nombre    String
+  docenteId Int
+  docente   Docente    @relation(fields: [docenteId], references: [id])
+  cursoId   Int
+  curso     Curso      @relation(fields: [cursoId], references: [id])
+  tareas    Tarea[]
+  promedios Promedio[]
+}
+
+model Tarea {
+  id               Int            @id @default(autoincrement())
+  nombre           String
+  descripcion      String
+  fechaPublicacion DateTime
+  fechaEntrega     DateTime
+  materiaId        Int
+  materia          Materia        @relation(fields: [materiaId], references: [id])
+  periodoId        Int
+  periodo          Periodo        @relation(fields: [periodoId], references: [id])
+  calificaciones   Calificacion[]
+}
+
+model Calificacion {
+  id           Int        @id @default(autoincrement())
+  estudianteId Int
+  tareaId      Int
+  calificacion Float
+  estado       String
+  estudiante   Estudiante @relation(fields: [estudianteId], references: [id])
+  tarea        Tarea      @relation(fields: [tareaId], references: [id])
+
+  @@unique([estudianteId, tareaId])
+}
+
+model Periodo {
+  id        Int        @id @default(autoincrement())
+  nombre    String
+  tareas    Tarea[]
+  promedios Promedio[]
+}
+
+model Promedio {
+  id           Int        @id @default(autoincrement())
+  estudianteId Int
+  materiaId    Int
+  periodoId    Int
+  promedio     Float
+  estudiante   Estudiante @relation(fields: [estudianteId], references: [id])
+  materia      Materia    @relation(fields: [materiaId], references: [id])
+  periodo      Periodo    @relation(fields: [periodoId], references: [id])
+
+  @@unique([estudianteId, materiaId, periodoId])
+}
+
+model MensajesPreceptores {
+  id           Int        @id @default(autoincrement())
+  mensaje      String
+  docenteId    Int
+  estudianteId Int
+  docente      Docente    @relation(fields: [docenteId], references: [id])
+  estudiante   Estudiante @relation(fields: [estudianteId], references: [id])
+}
+
+model MensajesProfesores {
+  id           Int        @id @default(autoincrement())
+  mensaje      String
+  docenteId    Int
+  estudianteId Int
+  docente      Docente    @relation(fields: [docenteId], references: [id])
+  estudiante   Estudiante @relation(fields: [estudianteId], references: [id])
+}
