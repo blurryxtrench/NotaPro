@@ -19,7 +19,7 @@ NotaPro es una aplicación web construida con Next.js para gestionar de forma ef
 Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de los períodos lectivos y que cuando finalice el último se generen automátiamente planillas con los promedios de los estudiantes</div>
 
 ## 🚀 Paso a paso para inicializar el proyecto
-  <ul>
+  <ol>
           <li>1. **Descarga y descomprime** el proyecto.</li>
           <li>
             2. Abre una terminal en la carpeta del proyecto y ejecuta el
@@ -40,4 +40,4 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
             5. Ejecutar el proyecto con el comando
             <pre> npm run dev </pre>
           </li>
-        </ul>
+        </ol>
