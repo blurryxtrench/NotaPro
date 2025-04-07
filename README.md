@@ -16,7 +16,7 @@ NotaPro es una aplicación web construida con Next.js para gestionar de forma ef
 ## Posibles Futuras Mejoras
 
 <div>En el futuro pueden agragarse más funciones como registrar asistencia, un calendario principal para en el inicio de cada perfil o incluso un chat privado entre los usuarios.
-Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de los períodos lectivos y que cuando finalice el último se generen automátiamente planillas con los promedios de los estudiantes</div>
+Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de los períodos lectivos y que al finalizarse se generen automátiamente planillas con los promedios de los estudiantes</div>
 
 ## 🚀 Paso a paso para inicializar el proyecto
   <ol>
