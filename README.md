@@ -38,10 +38,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
             Luego, modifica la variable SECRET_KEY. Por
             seguridad, reemplaza el valor predeterminado "mySecretKey" por una
             cadena segura de al menos 10 caracteres que combine letras, números
-            y símbolos.
-            
-          </li>
-          <li>
+            y símbolos.</li><li>
 Ejecuta el comando de construcción:
           <pre><code>npm run build</code></pre>
           </li>
