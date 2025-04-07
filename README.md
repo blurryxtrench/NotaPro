@@ -13,6 +13,8 @@ NotaPro es una aplicación web construida con Next.js para gestionar de forma ef
 
 </ol>
 
+
+
 ## Posibles Futuras Mejoras
 
 <div>En el futuro pueden agragarse más funciones como registrar asistencia, un calendario principal para en el inicio de cada perfil o incluso un chat privado entre los usuarios.
