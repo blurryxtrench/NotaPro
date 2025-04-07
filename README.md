@@ -1,6 +1,6 @@
 # NotaPro
 
-NotaPro es una aplicación web construida con Next.js para gestionar de forma eficiente las calificaciones en una escuela secundaria. Permite crear y administrar usuarios como docentes, estudiantes y familiares, centralizando la información académica de manera clara, rápida y accesible.
+NotaPro es una aplicación web construida con Next.js para gestionar de forma eficiente las calificaciones en una escuela secundaria. Permite crear y administrar usuarios como docentes, estudiantes y familiares, gestionando de manera clara, rápida y accesible las calificaciones de los estudiantes.
 
 ## Tecnologías utilizadas:
 
