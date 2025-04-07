@@ -29,11 +29,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
             <pre><code>npm install --legacy-peer-deps</code></pre>
           </li>
           <li>
-            Ejecuta el comando de construcción:
-          <pre><code>npm run build</code></pre>
-          </li>
-          <li>
-            Crea un archivo en el proyecto, cuyo nombre sea ".env". Aquí estarán algunas configuraciones generales de nuestro proyecto
+                        Crea un archivo en el proyecto, cuyo nombre sea ".env". Aquí estarán algunas configuraciones generales de nuestro proyecto
             Pega estas variables
             <pre><code>
     DATABASE_URL="file:./dev.db"
@@ -43,6 +39,11 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
             seguridad, reemplaza el valor predeterminado "mySecretKey" por una
             cadena segura de al menos 10 caracteres que combine letras, números
             y símbolos.
+            
+          </li>
+          <li>
+Ejecuta el comando de construcción:
+          <pre><code>npm run build</code></pre>
           </li>
           <li>
             Ejecutar el proyecto con el comando
