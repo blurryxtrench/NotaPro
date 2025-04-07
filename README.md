@@ -34,5 +34,5 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 Por seguridad, reemplaza el valor predeterminado mySecretKey por una cadena segura de al menos 10 caracteres que combine letras, números y símbolos.
 5. Ejecutar el proyecto con el comando
 ```bash
-   npm install --legacy-peer-deps
+   npm run dev
    ```
