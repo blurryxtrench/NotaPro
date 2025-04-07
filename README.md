@@ -22,26 +22,24 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
   <ol>
           <li>Descarga y descomprime el proyecto.</li>
           <li>
-            2. Abre una terminal en la carpeta del proyecto y ejecuta el
+            Abre una terminal en la carpeta del proyecto y ejecuta el
             siguiente comando para instalar las dependencias:
-            ```bash
-npm install --legacy-peer-deps
-            ```
+            <pre><code>npm install --legacy-peer-deps</code></pre>
           </li>
           <li>
-            3. Ejecuta el comando de construcción:
+            Ejecuta el comando de construcción:
             ```bash 
             npm run build 
             ```
           </li>
           <li>
-            4. Abre el archivo .env y modifica la variable SECRET_KEY. Por
+            Abre el archivo .env y modifica la variable SECRET_KEY. Por
             seguridad, reemplaza el valor predeterminado mySecretKey por una
             cadena segura de al menos 10 caracteres que combine letras, números
             y símbolos.
           </li>
           <li>
-            5. Ejecutar el proyecto con el comando
+            Ejecutar el proyecto con el comando
             ```bash 
             npm run dev 
             ```
