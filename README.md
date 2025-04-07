@@ -32,7 +32,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           </li>
           <li>
             Abre el archivo .env y modifica la variable SECRET_KEY. Por
-            seguridad, reemplaza el valor predeterminado mySecretKey por una
+            seguridad, reemplaza el valor predeterminado "mySecretKey" por una
             cadena segura de al menos 10 caracteres que combine letras, números
             y símbolos.
           </li>
