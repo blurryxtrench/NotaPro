@@ -28,9 +28,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           </li>
           <li>
             Ejecuta el comando de construcción:
-            ```bash 
-            npm run build 
-            ```
+          <pre><code>npm run build</code></pre>
           </li>
           <li>
             Abre el archivo .env y modifica la variable SECRET_KEY. Por
@@ -40,8 +38,6 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           </li>
           <li>
             Ejecutar el proyecto con el comando
-            ```bash 
-            npm run dev 
-            ```
+            <pre><code>npm run dev</code></pre>
           </li>
         </ol>
