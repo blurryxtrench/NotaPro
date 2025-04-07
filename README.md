@@ -24,11 +24,11 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li>
             2. Abre una terminal en la carpeta del proyecto y ejecuta el
             siguiente comando para instalar las dependencias:
-            <pre>```bash npm install --legacy-peer-deps ```</pre>
+            <pre> npm install --legacy-peer-deps </pre>
           </li>
           <li>
             3. Ejecuta el comando de construcción:
-            <pre>```bash npm run build ```</pre>
+            <pre> npm run build </pre>
           </li>
           <li>
             4. Abre el archivo .env y modifica la variable SECRET_KEY. Por
@@ -38,6 +38,6 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           </li>
           <li>
             5. Ejecutar el proyecto con el comando
-            <pre>```bash npm run dev ```</pre>
+            <pre> npm run dev </pre>
           </li>
         </ul>
