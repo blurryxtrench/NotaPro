@@ -50,7 +50,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Cuentas de familiares </h3>
           <img src="./assets/lyFam.png" alt="Vista previa" width="1000"/> 
           <h4>Viendo calificaciones</h4>
-          <img src="./assets/lyFamcal.png" alt="Vista previa" width="1000"/> 
+          <img src="./assets/lyFamcal.png" alt="Vista previa" width="600"/> 
           </li>
           </ol>
 
