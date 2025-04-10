@@ -23,9 +23,9 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Primer vistazo: Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="1000"/> 
           <h4>Creando las primeras cuentas</h4>
-          <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="100"/> <h4>Terminando las primeras configuraciones</h4>
-          <img src="./assets/PrimerInicio3.png" alt="Vista previa" width="100"/>  </li>
-          </div><li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="200"/> <h4>Terminando las primeras configuraciones</h4>
+          <img src="./assets/PrimerInicio3.png" alt="Vista previa" width="200"/>  </li>
+          <li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
