@@ -109,7 +109,7 @@ export default function Reset({ user }) {
         <CardContent>
           <div className="flex flex-col gap-4">
             <div className="pl-1">Contraseña actual</div>
-            <Input onChange={handleChange} name="password" value={password} />
+            <Input onChange={handleChange} name="password" value={password} type="password"/>
             {password == "" ? (
               <Button type="button" disabled variant="destructive">
                 <div className="flex w-full ">
