@@ -20,30 +20,32 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 
 ## Algunas imágenes del proyecto
   <ol>
+          <li><h3>Primer vistazo: Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> 
+          <h4>Creando las primeras cuentas</h4>
+          <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="800"/> 
+          <h4>Terminando las primeras configuraciones</h4>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
-          <li>
-            Abre una terminal en la carpeta del proyecto y ejecuta el
-            siguiente comando para instalar las dependencias:
-            <pre><code>npm install --legacy-peer-deps</code></pre>
-          </li>
-          <li>
-                        Crea un archivo en el directorio principal, cuyo nombre sea ".env". Aquí estarán algunas configuraciones generales de nuestro proyecto
-            Pega estas variables
-            <pre><code>DATABASE_URL="file:./dev.db"
-SECRET_KEY="mySecretKey"
-NODE_ENV="production"</code></pre>
-            Luego, modifica la variable SECRET_KEY. Por
-            seguridad, reemplaza el valor predeterminado "mySecretKey" por una
-            cadena segura de al menos 10 caracteres que combine letras, números
-            y símbolos.</li><li>
-Ejecuta el comando de construcción:
-          <pre><code>npm run build</code></pre>
-          </li>
-          <li>
-            Ejecutar el proyecto con el comando
-            <pre><code>npm run dev</code></pre>
-          </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
+          <li><h3>Establecer administrador</h3>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
         </ol>
 
 
