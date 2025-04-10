@@ -22,10 +22,10 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
   <ol>
           <li><h3>Primer vistazo: Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="1000"/> 
-          <div className="flex justify-between flex-1"><h4>Creando las primeras cuentas</h4>
+          <div className="flex flex-row justify-between flex-1"><div><h4>Creando las primeras cuentas</h4>
           <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="500"/> 
-          <h4>Terminando las primeras configuraciones</h4>
-          <img src="./assets/PrimerInicio3.png" alt="Vista previa" width="500"/> </li>
+          </div> <div>        <h4>Terminando las primeras configuraciones</h4>
+          <img src="./assets/PrimerInicio3.png" alt="Vista previa" width="500"/></div>  </li>
           </div><li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li><h3>Establecer administrador</h3>
