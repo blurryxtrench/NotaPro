@@ -215,7 +215,7 @@ export default function InsetAdmin({ currentrol }) {
               Qr y establecer la contraseña
             </span>
             <span className="font-medium">
-              Si un usuario no recuerda su contraseña, la opción Restaurar
+              Si un usuario no recuerda su contraseña, la opción Reestablecer
               Contraseña desactiva al usuario y brina un nuevo Qr para
               establecer una nueva contraseña
             </span>
@@ -420,7 +420,7 @@ export default function InsetAdmin({ currentrol }) {
               Qr y establecer la contraseña
             </span>
             <span className="font-medium">
-              Si un usuario no recuerda su contraseña, la opción Restaurar
+              Si un usuario no recuerda su contraseña, la opción Reestablecer
               Contraseña desactiva al usuario y brina un nuevo Qr para
               establecer una nueva contraseña
             </span>
@@ -623,7 +623,7 @@ export default function InsetAdmin({ currentrol }) {
               Qr y establecer la contraseña
             </span>
             <span className="font-medium">
-              Si un usuario no recuerda su contraseña, la opción Restaurar
+              Si un usuario no recuerda su contraseña, la opción Reestablecer
               Contraseña desactiva al usuario y brina un nuevo Qr para
               establecer una nueva contraseña
             </span>
