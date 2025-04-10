@@ -157,7 +157,7 @@ export default function CarouselAdmin() {
     );
     await new Promise((res) => setTimeout(res, 500));
 
-    await new Promise((res) => setTimeout(res, 700));
+  console.log(usersdoc)
     cursos.map(({ nombre, docenteEmail }) =>
       postCurso(nombre, docenteEmail, usersdoc)
     );
