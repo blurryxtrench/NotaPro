@@ -459,8 +459,6 @@ export default function InsetAdmin({ currentrol }) {
                             </CardTitle>
 
                             <CardFooter className="flex justify-start">
-                              <div className="text-sm font-light flex-1 gap-1 flex justify-between flex-wrap">
-                                Usuario: {est.user}{" "}
                                 <div className="text-sm font-light flex-1 gap-2 flex flex-col justify-between flex-wrap">
                                   Usuario: {est.user}{" "}
                                   <Button
@@ -473,7 +471,6 @@ export default function InsetAdmin({ currentrol }) {
                                     Reestablecer contraseña
                                   </Button>
                                 </div>
-                              </div>
                             </CardFooter>
                           </Card>
                         );
@@ -665,8 +662,7 @@ export default function InsetAdmin({ currentrol }) {
                             </CardTitle>
 
                             <CardFooter className="flex justify-start">
-                              <div className="text-sm font-light flex-1 gap-1 flex justify-between flex-wrap">
-                                Usuario: {fam.user}{" "}
+                           
                                 <div className="text-sm font-light flex-1 gap-2 flex flex-col justify-between flex-wrap">
                                   Usuario: {fam.user}{" "}
                                   <Button
@@ -679,7 +675,6 @@ export default function InsetAdmin({ currentrol }) {
                                     Reestablecer contraseña
                                   </Button>
                                 </div>
-                              </div>
                             </CardFooter>
                           </Card>
                         );
