@@ -21,7 +21,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 ## Algunas imágenes del proyecto
   <ol>
           <li><h2>Establecer administrador</h2>
-          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="400"/> </li>
+          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li>
             Abre una terminal en la carpeta del proyecto y ejecuta el
             siguiente comando para instalar las dependencias:
