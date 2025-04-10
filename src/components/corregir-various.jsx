@@ -79,6 +79,7 @@ export default function CorregirVarious({ tarea, setState, estudiantes }) {
 
     setState((prev) => prev + 1);
   };
+  console.log(calificaciones);
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -96,7 +97,8 @@ export default function CorregirVarious({ tarea, setState, estudiantes }) {
             Ingrese o actualice la calificacion de varios estudiantes
             <span className="font-normal">
               {" "}
-              Si deseas eliminar tu correccion, puedes borrar la nota
+              Si deseas eliminar tu correccion, puedes presionar la calificacion
+              y presionar la letra e
             </span>
           </DialogDescription>
         </DialogHeader>
@@ -129,7 +131,7 @@ export default function CorregirVarious({ tarea, setState, estudiantes }) {
                             name={estudiante.id}
                             placeholder="entregado"
                             onChange={handleInput}
-                            type="number"
+                            value="entregado"
                           />
                         ) : (
                           <Input
