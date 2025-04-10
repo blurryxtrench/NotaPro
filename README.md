@@ -20,7 +20,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
 
 ## Algunas imágenes del proyecto
   <ol>
-          <li><h2>Establecer administrador</h2>
+          <li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li>
             Abre una terminal en la carpeta del proyecto y ejecuta el
