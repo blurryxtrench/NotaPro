@@ -27,7 +27,7 @@ import { Label } from "./ui/label";
 import CalendarPicker from "./calendarPicker";
 
 export default function CorregirSingle({ estudiante, tarea, setState }) {
-  const [calificacion, setCalificacion] = useState();
+  const [calificacion, setCalificacion] = useState(0);
   const handleChange = (e) => {
     setCalificacion(e.target.value);
   };
@@ -64,14 +64,14 @@ export default function CorregirSingle({ estudiante, tarea, setState }) {
               name="calificacion"
               type="number"
               onChange={handleChange}
-              value={calificacion}
+              value={calificacion == 0 ? "" : calificacion}
               placeholder="Calificacion"
             />
           </div>
         </CardContent>
         <DialogFooter className="sm:justify-start">
           <DialogClose asChild>
-            {calificacion ? (
+            {calificacion !== 0 && calificacion !== "" ? (
               <form
                 onSubmit={handleSubmit}
                 className="flex items-center space-x-2"
