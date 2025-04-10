@@ -23,13 +23,18 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Primer vistazo: Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="1000"/> 
           <h4>Creando las primeras cuentas</h4>
-          <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="300"/> <h4>Terminando las primeras configuraciones</h4>
+          <img src="./assets/PrimerInicio2.png" alt="Vista previa" width="300"/>
+          <h4>Terminando las primeras configuraciones</h4>
           <img src="./assets/PrimerInicio3.png" alt="Vista previa" width="300"/>  </li>
-          <li><h3>Establecer administrador</h3>
-          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
-          <li><h3>Establecer administrador</h3>
-          <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
-          <li><h3>Establecer administrador</h3>
+          <li><h3>Inicio de Sesión</h3>
+          <img src="./assets/login.png" alt="Vista previa" width="1000"/> </li>
+          <li><h3>Página del administrador</h3>
+          <h4>Gestionar Cursos</h4>
+          <img src="./assets/lyAdmin.png" alt="Vista previa" width="1000"/> 
+          <h4>Gestionar Docentes</h4>
+          <img src="./assets/lyAdmindoc.png" alt="Vista previa" width="1000"/> 
+          <h4>Gestionar Estudiantes</h4>
+          <img src="./assets/lyAdminest.png" alt="Vista previa" width="1000"/><img src="./assets/lyAdminest2.png" alt="Vista previa" width="1000"/> 
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
           <li><h3>Establecer administrador</h3>
           <img src="./assets/PrimerInicio.png" alt="Vista previa" width="800"/> </li>
