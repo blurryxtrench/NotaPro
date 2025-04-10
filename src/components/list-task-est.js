@@ -39,7 +39,7 @@ export default function Lists({
         <div>
           <div className="flex flex-col gap-3">
             <div className="">
-              <h2 className="text-2xl font-bold mb-4 flex items-center"><i className="fa-solid fa-clipboard "></i> Tareas</h2>
+              <h2 className="text-2xl font-bold mb-4 flex items-center gap-2 "><i className="fa-solid fa-clipboard "></i> Tareas</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {tags.map((tag, index) => {
                   let entrega = calificaciones.find((cal) => {
