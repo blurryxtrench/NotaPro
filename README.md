@@ -47,7 +47,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <img src="./assets/lyEst.png" alt="Vista previa" width="1000"/> </li>
           <li><h3>Cuentas de familiares </h3>
           <img src="./assets/lyFam.png" alt="Vista previa" width="1000"/> 
-          <h4>viendo calificaciones</h4>
+          <h4>Viendo calificaciones</h4>
           <img src="./assets/lyFam2.png" alt="Vista previa" width="1000"/> 
           </li>
           </ol>
