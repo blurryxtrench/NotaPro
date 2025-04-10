@@ -153,6 +153,7 @@ export default function ActivarUsuario() {
               value={newPassword}
               onChange={handleChange}
               name="newPassword"
+                type="password"
             />
           </div>
 
