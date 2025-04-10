@@ -40,7 +40,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Cuentas de docentes</h3>
           <h4>Como Preceptor</h4>
           <img src="./assets/lyDoc.png" alt="Vista previa" width="1000"/>   
-          <h4>Como Profesor, creando tareas</h4>
+          <h3>Profesor, creando tareas</h3>
           <img src="./assets/crearTar.png" alt="Vista previa" width="1000"/>   
           </li>
           <li><h3>Cuentas de estudiantes</h3>
