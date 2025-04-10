@@ -40,7 +40,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Cuentas de docentes</h3>
           <h4>Como Preceptor</h4>
           <img src="./assets/lyDoc.png" alt="Vista previa" width="1000"/>   
-          <h4>Como Profesor, creando tareas0</h4>
+          <h4>Como Profesor, creando tareas</h4>
           <img src="./assets/crearTar.png" alt="Vista previa" width="1000"/>   
           </li>
           <li><h3>Cuentas de estudiantes</h3>
@@ -48,7 +48,7 @@ Otra idea puede ser la posibilidad de establecer las fechas de inicio y fin de l
           <li><h3>Cuentas de familiares </h3>
           <img src="./assets/lyFam.png" alt="Vista previa" width="1000"/> 
           <h4>Viendo calificaciones</h4>
-          <img src="./assets/lyFam2.png" alt="Vista previa" width="1000"/> 
+          <img src="./assets/lyFamcal.png" alt="Vista previa" width="1000"/> 
           </li>
           </ol>
 
